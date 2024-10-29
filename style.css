@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontfamily2{
+    font-family: 'Nunito', sans-serif;
+}
+.fontfamily3{
+    font-family: 'Monda', sans-serif;
+}
+.leading-10px{
+    line-height: 50px;
+}
+.leading-30px{
+    line-height: 40px;
+}
+.divHeight{
+    height: 300px;
+}
+.imgheight{
+    height: 400px;
+}
+.list-circle{
+    list-style-type:circle;
+}
+.fa-lgl:hover {
+   transform: scale(1.2);
+}
+
+/* .ml-117px{
+    margin-left: 153px;
+} */
+
+.h-96px{
+    height: 1550px;
+}
+
+.h-72px{
+    height: 460px;
+    width: 420px;
+}
+
+.bg-purple{
+    background-color: #1d0943;
+}
+
+.bg-gray{
+    background-color: #252525;
+}
+.w-35px{
+    width: 550px;
+    height: 323px;
+    margin-left: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
